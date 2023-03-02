@@ -1,0 +1,31 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get"
+      ],
+      "route": "{vanity}"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "Redir",
+      "databaseName": "nalinuPink",
+      "collectionName": "redirects",
+      "createIfNotExists": "true",
+      "connectionStringSetting": "ReDB",
+      "collectionThroughput": "400",
+      "partitionKey": "{vanity}",
+      "id": "{vanity}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    }
+  ]
+}
