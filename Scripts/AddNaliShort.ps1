@@ -14,8 +14,8 @@ param(
 )
 
 Begin {
-    $AcKey = "OSdtrxvdfBNsHZW1TrsrUeUa8dF5o2fOtJ_ZV6HP4GtLAzFuwoQ5UA=="
-    $SiteURL = "https://nali.nu/reg" # "https://nalishortncus.azurewebsites.net/reg" 
+    $AcKey = ""
+    $SiteURL = ""
 }
 
 Process {
