@@ -19,7 +19,7 @@
       "type": "cosmosDB",
       "direction": "out",
       "name": "redir",
-      "databaseName": "nalinuPink",
+      "databaseName": "vyksin",
       "collectionName": "redirects",
       "createIfNotExists": "true",
       "connectionStringSetting": "ReDB",
